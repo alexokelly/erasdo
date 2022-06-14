@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="partagetonexp.css">
+</head>
+<header>
+    <a href="index.html"><img src="logo.jpg" id="logo"></a>
+</header>
+<body>
+    <div class="container">
+        <h1>Je partage mon expérience</h1>
+        <p>500 dauphinois partent en Erasmus chaque année. <br>En 10 ans tu peux aider 5 000 dauphinois, soit 10 fois Charenton.<br>Rend-toi compte!</p>
+        <form action="https://formsubmit.co/alexandre.okelly@icloud.com" method="POST">
+
+            <label for="name">Ton prénom & ton nom :</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="reseaux">Instagram / Facebook / Moyen de te contacter ?</label>
+            <input type="text" name="email" id="subject">
+
+            <label for="filiere">Nom de ta filière quand tu es parti(e)</label>
+            <input type="text" name="filiere" id="subject">
+
+            <label for="subject">Semestre et année à laquelle tu es parti(e):</label>
+            <input type="text" name="date" id="subject">
+
+            <label for="pays">Pays et ville de départ</label>
+            <input type="text" name="pays" id="subject">
+
+            <label for="fac">Nom de l'université</label>
+            <input type="text" name="fac" id="subject">
+
+            <label for="classement">Ton classement en L1 avant de partir ? (à peu près hein)</label>
+            <input type="text" name="fclassement" id="subject">
+
+            <label for="travail">Charge de travail / difficultés ? </label>
+            <textarea name="travail" cols="30" rows="10"></textarea>
+
+
+            <label for="voyage">Occasions de voyager ? </label>
+            <textarea name="voyage" cols="30" rows="10"></textarea>
+
+            <label for="ville">La ville en elle-même ? (logement, transports, etc)</label>
+            <textarea name="ville" cols="30" rows="10"></textarea>
+
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="J'aide les jeunes dauphinois.">
+        </form>
+    </div>
+</body>
+</html>
+

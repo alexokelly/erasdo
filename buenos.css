@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Avenir',
+        serif;
+    font-size: 59px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+p {
+    color: #d2d2d2;
+}
+
+p,
+label {
+    font-family: 'Poppins',
+        sans-serif;
+    text-align: center; 
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    background: black; 
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+
+label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #828282;
+    text-align: center; 
+}
+
+a {
+    color: #828282;
+    font-style: italic;
+}
+
+a:hover {
+    color: #fff;
+}
+
+#logo{
+    width:200px; 
+    cursor: pointer; 
+    margin-bottom: 0 auto; 
+    position: relative;
+}
+
+p{
+    border: 0;
+    border-bottom: 2px solid #828282;
+    padding-bottom: 15px; 
+}
+
+label{
+    font-weight: bold; 
+}
+ 
+/* Titre personne */
+
+h3{
+    color: white; 
+    padding: 3%;
+    font-family: avenir; 
+    font-size: 30px; 
+}
+
+h2{
+    color: white; 
+    padding: 3%;
+    font-family: avenir;
+    font-size: 40px;  
+}
